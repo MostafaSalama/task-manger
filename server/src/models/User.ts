@@ -1,4 +1,5 @@
 import * as mongoose from 'mongoose';
+import TaskSchema from "./Task";
 
 const UserSchema = new mongoose.Schema({
     username : {
@@ -15,8 +16,8 @@ const UserSchema = new mongoose.Schema({
     },
     email: {
         type:String
-    }
-
+    },
+    taskList:[TaskSchema]
 },{
     versionKey:false,
     timestamps:true
@@ -24,4 +25,4 @@ const UserSchema = new mongoose.Schema({
 
 const User = mongoose.model('User',UserSchema) ;
 
-export default User ; 
+export default User ;
