@@ -1,0 +1,27 @@
+{
+  "name": "task-manger-server",
+  "version": "0.0.1",
+  "description": "A simple task manger server app  built with Node.js and Express.js and TypeScript",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/MostafaSalama/task-manger.git"
+  },
+  "keywords": [
+    "Express",
+    "Node.js",
+    "TypeScript"
+  ],
+  "author": "Mostafa Salama",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/MostafaSalama/task-manger/issues"
+  },
+  "homepage": "https://github.com/MostafaSalama/task-manger#readme",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
