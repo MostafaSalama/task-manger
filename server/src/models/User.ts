@@ -1,7 +1,8 @@
 import * as mongoose from 'mongoose';
 import TaskSchema from "./Task";
+import User from "../types/User";
 
-const UserSchema = new mongoose.Schema({
+const UserSchema = new mongoose.Schema<User>({
     username : {
         type:String,
         required:true,
